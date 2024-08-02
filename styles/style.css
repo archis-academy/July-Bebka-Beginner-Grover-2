@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.baslik {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,4 +123,25 @@ body {
 
 
 
+/* Başlangıç: Responsive Tasarım */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
+    .nav-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-list li {
+        margin: 10px 0;
+    }
+
+    .search-cart {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+/* Bitiş: Responsive Tasarım */

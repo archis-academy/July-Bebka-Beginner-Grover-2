@@ -1,21 +1,13 @@
 /* berfinesenn[BE-7] Hero Section Started */
 
-
 .hero-section {
   font-family: "Poppins", sans-serif;
   display: flex;
 }
 
-.hero-section .container {
-  margin-bottom: auto;
-  font-family: "Poppins", sans-serif;
-}
-
 .hero-section .header-content {
-}
-
-.hero-section .more-than-faster {
-  margin-top: 63px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
 }
 
 .hero-section .container-1 {
@@ -33,6 +25,7 @@
 }
 
 .hero-section .text-1 {
+  font-weight: 700;
   font-size: 16px;
   color: #ff4d4d;
   margin-left: 20px;
@@ -71,7 +64,7 @@
   color: rgba(103, 103, 103, 1);
 }
 
-.header-content .container-10 {
+.header-content .container-3 {
   font-family: "Poppins", sans-serif;
   margin-right: 34.3px;
   display: flex;
@@ -121,7 +114,7 @@
   box-sizing: border-box;
 }
 
-.header-content .polygon-1 {
+.header-content .play-btn {
   border-radius: 1px;
   width: 40px;
   height: 40px;
@@ -148,4 +141,131 @@
   color: #fffafa;
   margin: auto;
 }
+.hero-section .header-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.header-image .card-1,
+.chef,
+.background-0,
+.container-12 {
+  position: relative;
+}
+
+.header-image .card-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 182px;
+}
+
+.header-image .orange {
+  box-shadow: 0px 50px 80px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.header-image .card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-image .fresh-orenge {
+  font-weight: 600;
+  font-size: 12px;
+  color: #2e2e2e;
+  margin-bottom: 4px;
+}
+
+.header-image .rectangle {
+  border-radius: 1px 0px 0px 0px;
+}
+
+.header-image .container-3 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #2e2e2e;
+  margin-bottom: 6px;
+}
+
+.header-image .free-shipping-1 {
+  font-size: 10px;
+  font-weight: 500;
+  color: #a5a5a5;
+}
+
+.header-image .chef img {
+  width: 100%;
+  z-index: 3;
+}
+
+.header-image .background-0 {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-image .background-1 {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-image .container-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-image .card-2 {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0px 40px 70px -10px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+.header-image .alarm-clock-icon {
+  width: 34px;
+  height: 34px;
+  margin-right: 10px;
+}
+
+.header-image .delivary {
+  font-weight: 700;
+  font-size: 20px;
+  color: #2e2e2e;
+}
+
+.header-image .delivery-1 {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header-image .container-5 {
+  width: 100%;
+  border-radius: 12px;
+}
+
 /* berfinesenn[BE-7] Hero Section Started */

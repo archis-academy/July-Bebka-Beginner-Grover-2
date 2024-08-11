@@ -151,3 +151,34 @@ body {
 }
 /* Bitiş: Responsive Tasarım */
 
+
+/* berfinesenn/BE-13-hero-section-responsiveness  Started */
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px 20px;
+  }
+  .hero-section .text-1 {
+    width: 100%;
+  }
+  .hero-section .paragraph {
+    width: 100%;
+  }
+  .header-image .card-1 {
+    width: 100%;
+  }
+  .header-image .card-2 {
+    width: 100%;
+  }
+  .header-image .alarm-clock-icon {
+    width: 100%;
+  }
+  .header-image .arrow {
+    width: 100%;
+  }
+}
+
+/* berfinesenn/BE-13-hero-section-responsiveness  Finished */

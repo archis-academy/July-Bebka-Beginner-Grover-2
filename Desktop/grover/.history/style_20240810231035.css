@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FDEDEC;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Başlıklar */
+.section-title {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.first-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin: 0;
+}
+
+/* Hizmet Kartları */
+.services-container {
+    list-style: none; /* Liste işaretlerini kaldır */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.services-container li {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1;
+}
+
+.services-container img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.services-container h1 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 20px 0 10px;
+}
+
+.services-container p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+}
+
+.second-card{
+    z-index: 1;
+    background-color: ;
+}
+
+/* İkinci Kart Özel Arka Plan */
+.second-card .arka-plan {
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    background-color: #ff5e5e;
+    border-radius: 20px;
+    top: 10px;
+    left: -10px;
+    z-index: -1;
+}

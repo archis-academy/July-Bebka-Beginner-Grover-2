@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FDEDEC;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Başlıklar */
+.section-title {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.first-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin: 0;
+}
+
+/* Hizmet Kartları */
+.services-container {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.services-container li {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    overflow: hidden;
+}
+
+.services-container li img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.text-shipping, .text-returns, .text-secure {
+    background-color: rgba(255, 255, 255, 0.8); /* Şeffaf beyaz arka plan */
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.services-container h1 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 20px 0 10px;
+}
+
+.services-container p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* İkinci Kart Özel Arka Plan */
+.second-card{
+    background-color: transparent;
+    z-index: 2;
+}
+
+.second-card .text-returns {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    z-index: 3;
+    position: relative;
+}
+.second-card::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background-color: #ff5e5e;
+    border-radius: 20px;
+    transform: rotate(10deg); /* Çapraz kare şekli */
+    top: -20px; /* Konumu ayarlamak için */
+    left: -10px; /* Konumu ayarlamak için */
+    z-index: -1; /* İçeriğin arkasında olacak şekilde */
+}
+
+/* Kartlar Arası Ortak Ayarlar */
+.first-card, .second-card, .third-card {
+    position: relative;
+}
+
+.first-card .text-shipping, 
+.second-card .text-returns, 
+.third-card .text-secure {
+    position: relative;
+    z-index: 1;
+}

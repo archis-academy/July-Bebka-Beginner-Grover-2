@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins';
+    background-color: #FDEDEC;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
+/* Başlıklar */
+.section-title {
+    font-family: 'poppins';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(245,71,72,1);
+    margin-bottom: 10px;
+}
+
+.first-title {
+    font-family:'poppins';
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+    color: rgba(46,46,46,1);
+    margin:0 auto;
+}
+
+/* Hizmet Kartları */
+.services-container {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+    padding: 0;
+    position: relative;
+}
+
+.services-container li {
+    position: relative;
+    max-width: 300px;
+    height: 310px;;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.text-shipping, .text-returns, .text-secure {
+    font-family: 'poppins';
+    background-color: rgba(255, 255, 255, 0.8); /* Şeffaf beyaz arka plan */
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.services-container h1 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 20px 0 10px;
+}
+
+.services-container p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* İkinci Kart Özel Arka Plan */
+.second-card{
+    background-color: transparent;
+    position: relative;
+    
+}
+
+.text-returns {
+    position: relative;
+    
+}
+
+
+

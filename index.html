@@ -1,99 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grover</title>
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <!--Kodlar buraya yazılacak.-->
-    <!--berfinesenn[BE-7] Hero Section Started-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grover</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+<!-- Bitiş: CSS Bağlantıları -->
+</head>
 
-    <div class="hero-section">
-      <div class="header-content">
-        <div class="more-than-faster">
-          <div class="container-1">
-            <span class="text-1">More than Faster</span>
-            <img
-              class="strawberry-icon"
-              src="images/Hero-Section/strawberry-icon.png"
-              alt="Strawberry Icon"
-            />
-          </div>
-          <div class="container-2">
-            <h1>
-              Groceries delivered in as little as
-              <span class="highlight">2 hours</span>
-            </h1>
-          </div>
-          <div class="paragraph">
-            <p>
-              Grocen assures fresh grocery every morning to your family without
-              getting out in this pandemic.
-            </p>
-          </div>
+<body>
+    <!-- Başlangıç: Header -->
+  <header class="header">
+    <div class="logo">
+        <img src="images/logo.png" alt="Logo">
+        <span>Grover</span>
+    </div>
+    <nav> <!--gezinme etiketleri-->
+        <ul class="nav-list">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Shop</a></li>
+        </ul>
+    </nav>
+   
+    <div class="search-cart">
+        <img src="images/search-icon.png" alt="search-icon">
+        <input type="text" placeholder="Search..." >
+        <img src="images/Line-icon.png" alt="Line-icon">
+        <button class="cart-button">
+            <img src="images/cart-icon.png" alt="sepet">
+            <span class="cart-count">2</span>
+        </button>
+    </div>
+    <!-- Bitiş: Header -->
+</header>
+<!--berfinesenn[BE-7] Hero Section Started-->
+<div class="hero-section">
+    <div class="header-content">
+      <div class="more-than-faster">
+        <div class="container-1">
+          <span class="text-1">More than Faster</span>
+          <img
+            class="strawberry-icon"
+            src="images/Hero-Section/strawberry-icon.png"
+            alt="Strawberry Icon"
+          />
         </div>
-
-        <div class="container-3">
-          <div class="button-order-now">
-            <span class="order-now"> Order Now </span>
-          </div>
-          <div class="order-process">
-            <div class="button-play">
-              <img class="play-btn" src="images/Hero-Section/play-button.png" />
-            </div>
-            <div class="order-process-1">Order Process</div>
-          </div>
+        <div class="container-2">
+          <h1>
+            Groceries delivered in as little as
+            <span class="highlight">2 hours</span>
+          </h1>
+        </div>
+        <div class="paragraph">
+          <p>
+            Grocen assures fresh grocery every morning to your family without
+            getting out in this pandemic.
+          </p>
         </div>
       </div>
 
-      <div class="header-image">
-        <div class="card-1">
-          <img
-            class="board"
-            src="images/Hero-Section/white-background-fill.png"
-          />
-          <div class="card-details">
-            <img class="orange" src="images/Hero-Section/orange-image.png" />
-            <div class="fresh-orenge">Fresh Orange</div>
-            <div class="orange-line">
-              <img src="images/Hero-Section/orange-line.png" alt="line" />
-            </div>
-            <div class="container-3">$44.60</div>
-            <span class="free-shipping-1"> Free Shipping </span>
+      <div class="container-3">
+        <div class="button-order-now">
+          <span class="order-now"> Order Now </span>
+        </div>
+        <div class="order-process">
+          <div class="button-play">
+            <img class="play-btn" src="images/Hero-Section/play-button.png" />
           </div>
-          <img class="basket" src="images/Hero-Section/basket-icon.png" />
-        </div>
-
-        <div class="chef">
-          <img src="images/Hero-Section/chef-full-pic.png" alt="Chef" />
-        </div>
-        <div class="card-2">
-          <img
-            class="alarm-clock-icon"
-            src="images/Hero-Section/alarm-clock-icon.png"
-            alt="Alarm Clock"
-          />
-          <div class="delivary">
-            Delivery
-            <div class="delivery-1">30 min</div>
-          </div>
-        </div>
-
-        <div class="arrow">
-          <img src="images/Hero-Section/arrow-image.png" alt="arrow" />
+          <div class="order-process-1">Order Process</div>
         </div>
       </div>
     </div>
 
-    <!--berfinesenn[BE-7] Hero Section Finished-->
-  </body>
+    <div class="header-image">
+      <div class="card-1">
+        <img
+          class="board"
+          src="images/Hero-Section/white-background-fill.png"
+        />
+        <div class="card-details">
+          <img class="orange" src="images/Hero-Section/orange-image.png" />
+          <div class="fresh-orenge">Fresh Orange</div>
+          <div class="orange-line">
+            <img src="images/Hero-Section/orange-line.png" alt="line" />
+          </div>
+          <div class="container-3">$44.60</div>
+          <span class="free-shipping-1"> Free Shipping </span>
+        </div>
+        <img class="basket" src="images/Hero-Section/basket-icon.png" />
+      </div>
+
+      <div class="chef">
+        <img src="images/Hero-Section/chef-full-pic.png" alt="Chef" />
+      </div>
+      <div class="card-2">
+        <img
+          class="alarm-clock-icon"
+          src="images/Hero-Section/alarm-clock-icon.png"
+          alt="Alarm Clock"
+        />
+        <div class="delivary">
+          Delivery
+          <div class="delivery-1">30 min</div>
+        </div>
+      </div>
+
+      <div class="arrow">
+        <img src="images/Hero-Section/arrow-image.png" alt="arrow" />
+      </div>
+    </div>
+  </div>
+
+  <!--berfinesenn[BE-7] Hero Section Finished-->
+
+</body>
 </html>

@@ -381,3 +381,158 @@ body {
     position: relative;
   }
   /* berfinesenn[BE-7] Hero Section Finished */
+
+  /* Deniz Angın Service Section started*/
+.services-section {
+  font-family:'poppins';
+  padding: 40px 20px;
+  background-color:#FDEDEC; 
+  border-radius: 12px;
+  text-align: center;
+  position: relative;
+  margin: 20px;
+}
+
+.service-header {
+  margin-bottom: 30px;
+}
+
+/* Başlık stilleri */
+.small-heading {
+  font-size: 24px;
+  color: rgba(245,71,72,1);
+  margin:0 auto;
+}
+
+.large-heading {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+/* Kartlar */
+.first-card,
+.middle-card,
+.third-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 0px;
+  width: 300px;
+  height: 310px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative
+
+}
+
+.middle-card-container {
+  position: relative;
+  width: 300px;
+  height: 310px;
+
+}
+
+.middle-card {
+
+  position: relative;
+  z-index: 2;
+}
+
+.pink-background {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 305px;
+  height: 330px;
+  background-color: rgba(254, 106, 106, 1);
+  z-index: 1;
+  border-radius: 12px;
+  transform: rotate(-5deg);
+  transform-origin: center;
+}
+
+
+.first-card img, .middle-card img, .third-card img {
+  width: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+
+/* text Styles */
+.text-shipping h1, .text-returns h1, .text-secure h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+ 
+}
+
+.text-shipping p, .text-returns p, .text-secure p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .services-cards {
+      flex-direction: column; 
+      gap: 20px;
+  }
+
+  .first-card,
+  .middle-card,
+  .third-card {
+      width: 90%;
+      height: auto; 
+  }
+
+  .pink-background {
+      width: 100%;
+      height: auto; 
+      transform: none; 
+  }
+
+  .small-heading {
+      font-size: 20px;
+  }
+
+  .large-heading {
+      font-size: 28px;
+  }
+
+  .text-shipping h1, .text-returns h1, .text-secure h1 {
+      font-size: 18px;
+  }
+
+  .text-shipping p, .text-returns p, .text-secure p {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .small-heading {
+      font-size: 18px;
+  }
+
+  .large-heading {
+      font-size: 24px;
+  }
+
+  .text-shipping h1, .text-returns h1, .text-secure h1 {
+      font-size: 16px;
+  }
+
+  .text-shipping p, .text-returns p, .text-secure p {
+      font-size: 12px;
+  }
+}
+
+
+/*Deniz Angın service section finished*/

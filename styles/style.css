@@ -385,12 +385,12 @@ body {
   /* Deniz Angın Service Section started*/
 .services-section {
   font-family:'poppins';
-  padding: 40px 20px;
+  padding: 20px 30px;
   background-color:#FDEDEC; 
   border-radius: 12px;
   text-align: center;
   position: relative;
-  margin: 20px;
+  margin: 100px 50px;
 }
 
 .service-header {

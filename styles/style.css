@@ -383,156 +383,171 @@ body {
   /* berfinesenn[BE-7] Hero Section Finished */
 
   /* Deniz Angın Service Section started*/
-.services-section {
-  font-family:'poppins';
-  padding: 20px 30px;
-  background-color:#FDEDEC; 
-  border-radius: 0px;
-  text-align: center;
-  position: relative;
-  margin: 120px 40px ;
-}
-
-.service-header {
-  margin-bottom: 30px;
-}
-
-/* Başlık stilleri */
-.small-heading {
-  font-size: 24px;
-  color: rgba(245,71,72,1);
-  margin:0 auto;
-}
-
-.large-heading {
-  font-size: 32px;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-.services-cards {
-  display: flex;
-  justify-content: center;
-  gap: 60px;
-}
-
-/* Kartlar */
-.first-card,
-.middle-card,
-.third-card {
-  background-color: #fff;
-  border-radius: 12px;
-  padding: 0px;
-  width: 300px;
-  height: 310px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  position: relative
-
-}
-
-.middle-card-container {
-  position: relative;
-  width: 300px;
-  height: 310px;
-
-}
-
-.middle-card {
-
-  position: relative;
-  z-index: 2;
-}
-
-.pink-background {
-  position: absolute;
-  top: 0;
-  left: 15px;
-  width: 305px;
-  height: 330px;
-  background-color: rgba(254, 106, 106, 1);
-  z-index: 1;
-  border-radius: 12px;
-  transform: rotate(-5deg);
-  transform-origin: center;
-}
-
-
-.first-card img, .middle-card img, .third-card img {
-  width: 100px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-
-
-/* text Styles */
-.text-shipping h1, .text-returns h1, .text-secure h1 {
-  font-size: 20px;
-  margin-bottom: 10px;
-  color: #333;
+  .services-section {
+    font-family: 'Poppins';
+    padding: 10px;
+    background-color: #FDEDEC; 
+    border-radius: 0px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 72px;
+    margin-top: 100px;
+    margin-bottom: 130px;
+   
+ }
  
-}
-
-.text-shipping p, .text-returns p, .text-secure p {
-  font-size: 16px;
-  color: #555;
-  line-height: 1.5;
-}
-
-/* Responsive styles */
-@media (max-width: 768px) {
-  .services-cards {
-      flex-direction: column; 
-      gap: 20px;
-  }
-
-  .first-card,
-  .middle-card,
-  .third-card {
-      width: 90%;
-      height: auto; 
-  }
-
-  .pink-background {
-      width: 100%;
-      height: auto; 
-      transform: none; 
-  }
-
-  .small-heading {
-      font-size: 20px;
-  }
-
-  .large-heading {
-      font-size: 28px;
-  }
-
-  .text-shipping h1, .text-returns h1, .text-secure h1 {
-      font-size: 18px;
-  }
-
-  .text-shipping p, .text-returns p, .text-secure p {
-      font-size: 14px;
-  }
-}
-
-@media (max-width: 480px) {
-  .small-heading {
-      font-size: 18px;
-  }
-
-  .large-heading {
-      font-size: 24px;
-  }
-
-  .text-shipping h1, .text-returns h1, .text-secure h1 {
-      font-size: 16px;
-  }
-
-  .text-shipping p, .text-returns p, .text-secure p {
-      font-size: 12px;
-  }
-}
-
-
-/*Deniz Angın service section finished*/
+ .service-header {
+    margin-bottom: 30px;
+ }
+ 
+ /* Başlık stilleri */
+ .small-heading {
+    font-size: 24px;
+    color: rgba(245,71,72,1);
+ }
+ 
+ .large-heading {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+ }
+ 
+ .services-cards {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+ }
+ 
+ /* Kartlar */
+ .first-card,
+ .middle-card,
+ .third-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 0px;
+    max-width: 300px;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+ }
+ 
+ .middle-card-container {
+    position: relative;
+    max-width: 320px;
+ }
+ 
+ .middle-card {
+    position: relative;
+    z-index: 2;
+    max-width: 300px;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+ }
+ 
+ .pink-background {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    right: -5px;
+    bottom: -20px;
+    background-color: rgba(254, 106, 106, 1);
+    z-index: 1;
+    border-radius: 12px;
+    transform: translateX(5%) rotate(-5deg);
+    transform-origin: center;
+ }
+ 
+ .first-card img, .middle-card img, .third-card img {
+    margin: 20px 0;
+ }
+ 
+ /* Text Styles */
+ .text-shipping h1, .text-returns h1, .text-secure h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+ }
+ 
+ .text-shipping p, .text-returns p, .text-secure p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    
+ }
+ 
+ /* Responsive styles */
+ @media (max-width: 991px) {
+    .services-section {
+       padding: 20px 15px;
+       margin: 100px 10px;
+    }
+ 
+    .services-cards {
+       flex-direction: column;
+       align-items: center;
+       gap: 40px;
+    }
+ 
+    .first-card, .middle-card, .third-card {
+       width: 90%;
+       height: auto;
+       padding: 20px;
+    }
+ 
+    .middle-card-container {
+       width: 90%;
+       height: auto;
+       padding: 20px;
+    }
+ }
+ 
+ /* Mobil Ekranlar (767px ve altı) */
+ @media (max-width: 767px) {
+    .services-section {
+       padding: 15px 10px;
+       margin: 80px 5px;
+    }
+ 
+    .small-heading {
+       font-size: 20px;
+    }
+ 
+    .large-heading {
+       font-size: 28px;
+       margin-bottom: 15px;
+    }
+ 
+    .services-cards {
+       flex-direction: column;
+       align-items: center;
+       gap: 20px;
+    }
+ 
+    .first-card, .middle-card, .third-card {
+       width: 100%;
+       height: auto;
+       padding: 15px;
+    }
+ 
+    .pink-background {
+       width: 100%;
+       height: 100%;
+       left: 0;
+    }
+ 
+    .text-shipping h1, .text-returns h1, .text-secure h1 {
+       font-size: 18px;
+    }
+ 
+    .text-shipping p, .text-returns p, .text-secure p {
+       font-size: 14px;
+    }
+ }
+ 
+ /* Deniz Angın Service Section finished */

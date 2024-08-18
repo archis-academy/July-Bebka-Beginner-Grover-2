@@ -91,7 +91,6 @@ body {
 .search-cart input[type="text"] {
     padding: 5px;
     font-size: 16px;
-    box-shadow: 0px 20px 50px 0px #0000000A;
     border: 1px solid  #FFFFFF;
     border-radius: 3px;
     margin-right: 10px;

@@ -1,334 +1,152 @@
-
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding: 10px 20px;
-    border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
-    height: 41.58px;
-    height: 41.58px;
-    margin-right: 10px;
-    top: 19px;
-    left: 63px;
+  height: 41.58px;
+  height: 41.58px;
+  margin-right: 10px;
+  top: 19px;
+  left: 63px;
 }
 
 .logo span {
-    width: 106.22px;
-    height: 20.65px;
-    top: 29px;
-    left: 111.68px;
-    font-size: 24px;
-    font-weight: bold;
-    color:  #2E2E2E;
-    ;
+  width: 106.22px;
+  height: 20.65px;
+  top: 29px;
+  left: 111.68px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2e2e2e;
 }
 
 .nav-list {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-list li {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 .nav-list a {
-    width: 72px;
-    height: 24px;
-    
-    color:#4D4D4D;
-    
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
+  width: 72px;
+  height: 24px;
 
-    text-decoration: none;
-    font-weight: bold;
+  color: #4d4d4d;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .nav-list a.active {
-    width: 49px;
-    height: 24px;
-    gap: 0px;
-    opacity: 0px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    text-align: center;
-    color:  #F55253;
+  width: 49px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #f55253;
 }
 
 .nav-list a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .search-cart {
-    display: flex;
-    align-items: center;
-    border-radius: 20px;
-    border: 1px solid #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    padding: 12px 10px; 
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 12px 10px;
 }
 
 .search-cart input[type="text"] {
-    padding: 5px;
-    font-size: 16px;
-    box-shadow: 0px 20px 50px 0px #0000000A;
-    border: 1px solid  #FFFFFF;
-    border-radius: 3px;
-    margin-right: 10px;
-
-    
+  padding: 5px;
+  font-size: 16px;
+  box-shadow: 0px 20px 50px 0px #0000000a;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  margin-right: 10px;
 }
 
 .cart-button {
-    position: relative;
-    background: none;
-    border: none;
-    cursor: pointer;
-    
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .cart-button img {
-    height: 24px;
+  height: 24px;
 }
 
 .cart-count {
-    
-    position: absolute;
-    top: -10px;
-    right: -5px;
-    background-color: #F55253;
-    box-shadow: 0 4px 8px #EE4343AD;
-    color: white;
-    border-radius: 50%;
-    padding: 2px 5px;
-    font-size: 12px;
-    
-
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  background-color: #f55253;
+  box-shadow: 0 4px 8px #ee4343ad;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 12px;
 }
-
-
 
 /* Başlangıç: Responsive Tasarım */
 @media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-    .nav-list {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+  .nav-list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-    .nav-list li {
-        margin: 10px 0;
-    }
+  .nav-list li {
+    margin: 10px 0;
+  }
 
-    .search-cart {
-        width: 100%;
-        justify-content: space-between;
-    }
+  .search-cart {
+    width: 100%;
+    justify-content: space-between;
+  }
 }
 /* Bitiş: Responsive Tasarım */
 
-
 /* berfinesenn/BE-13-hero-section-responsiveness  Started */
 
-
-
-
-  /* berfinesenn [BE] Hero Section Responsive Started*/
-  @media (min-width: 1024px) {
-    .hero-section {
-      width: 100%;
-      height: auto;  /*max-height: 605px;*/
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-    .hero-section .header-content {
-      margin: auto;
-    }
-    .hero-section .container-1 {
-      align-items: center;
-      border-radius: 23px;
-      padding: 5px 10px;
-      margin-top: 63px;
-      padding-top: 5px;
-      padding-right: 10px;
-      padding-bottom: 5px;
-      padding-left: 10px;
-    }
-    .hero-section .text-1 {
-      font-weight: 700;
-      font-size: 16px;
-      margin-left: 20px;
-      margin-top: 15px;
-      margin-bottom: 15px;
-    }
-    .hero-section .strawberry-icon {
-      padding-left: 150px;
-    }
-    .hero-section .container-2 {
-      max-width: 578px;
-      max-height: 264px;
-      font-size: 34px;
-    }
-    .hero-section .h1 {
-      font-weight: 700;
-      letter-spacing: -0.01px;
-    }
-    .hero-section .highlight {
-      font-weight: 500;
-      padding-left: 10px;
-      letter-spacing: 0.05px;
-    }
-    .hero-section .paragraph {
-      font-size: 25px;
-      font-weight: 300px;
-      line-height: 30px;
-      letter-spacing: 0.7px;
-    }
-    .header-content .container-3 {
-      margin-right: 34.3px;
-    }
-    .header-content .order-now {
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 1;
-    }
-    .header-content .order-process {
-      width: 220px;
-      height: 70px;
-    }
-    .header-content .order-process-1 {
-      margin: 25px 0;
-      font-weight: 500;
-      font-size: 20px;
-      letter-spacing: -0.2px;
-      line-height: 1;
-    }
-    .header-content .button-play {
-      border-radius: 35px;
-      margin-right: 16px;
-      display: flex;
-      padding: 27px 0 26px 1px;
-      width: 70px;
-      height: 70px;
-    }
-    .header-content .play-btn {
-      border-radius: 1px;
-      width: 40px;
-      height: 40px;
-      margin: auto;
-    }
-    .header-content .button-order-now {
-      border-radius: 12px;
-      margin-right: 34px;
-      padding: 0;
-      width: 186px;
-      height: 70px;
-    }
-    .header-content .order-now {
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 1;
-      margin: auto;
-    }
-    .hero-section .header-image {
-      width: 100%;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-    .header-image .card-1 {
-      margin-right: -100px;
-      margin-top: 100px;
-    }
-    .header-image .card-1 .board {
-      margin-top: -130px;
-      max-width: 282px;
-      max-height: 392px;
-    }
-    .header-image .card-details {
-      margin-top: -90px;
-    }
-    .header-image .card-details img {
-      max-width: 101px;
-      max-height: 88px;
-    }
-    .header-image .fresh-orenge {
-      margin-top: -30px;
-      font-weight: 600;
-      font-size: 12px;
-    }
-    .header-image .orange-line {
-      border-radius: 1px 0px 0px 0px;
-    }
-    .header-image .container-3 {
-      font-weight: 700;
-      font-size: 22px;
-      margin-bottom: 6px;
-    }
-    .header-image .free-shipping-1 {
-      font-size: 10px;
-      font-weight: 500;
-    }
-    .header-image .card-1 .basket {
-      margin-top: -170px;
-    }
-    .header-image .chef img {
-    }
-    .header-image .card-2 {
-      border-radius: 12px;
-      padding: 16px 20px;
-      margin-bottom: 420px;
-      margin-left: -110px;
-      margin-right: 200px;
-      margin-top: 70px;
-    }
-    .header-image .alarm-clock-icon {
-      width: 34px;
-      height: 34px;
-      margin-right: 10px;
-    }
-    .header-image .delivary {
-      font-weight: 700;
-      font-size: 20px;
-    }
-    .header-image .delivery-1 {
-      font-size: 16px;
-      font-weight: 500;
-    }
-    .header-image .arrow {
-      margin-left: -320px;
-      margin-top: -70px;
-    }
-}
-
-  @media only screen and (max-width: 1024px) {
-
+@media (min-width: 1024px) {
   .hero-section {
     width: 100%;
-    height: auto;  /*max-height: 605px;*/
+    height: auto;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -462,8 +280,6 @@ body {
   .header-image .card-1 .basket {
     margin-top: -170px;
   }
-  .header-image .chef img {
-  }
   .header-image .card-2 {
     border-radius: 12px;
     padding: 16px 20px;
@@ -490,22 +306,17 @@ body {
     margin-top: -70px;
   }
 }
-
-@media only screen and (max-width: 770px) {
-
+@media only screen and (max-width: 1024px) {
   .hero-section {
     width: 100%;
     height: auto;
     padding-left: 20px;
     padding-right: 20px;
-    flex-direction: column;
   }
   .hero-section .header-content {
-    flex-direction: column;
     margin: auto;
   }
   .hero-section .container-1 {
-    flex-direction: column;
     align-items: center;
     border-radius: 23px;
     padding: 5px 10px;
@@ -526,7 +337,6 @@ body {
     padding-left: 150px;
   }
   .hero-section .container-2 {
-    flex-direction: column;
     max-width: 578px;
     max-height: 264px;
     font-size: 34px;
@@ -596,24 +406,25 @@ body {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
-    flex-direction: row;
-    justify-content: normal;
-    margin-left: auto;
   }
   .header-image .card-1 {
-
-
+    margin-right: -100px;
+    margin-top: 100px;
   }
   .header-image .card-1 .board {
     margin-top: -130px;
+    max-width: 282px;
+    max-height: 392px;
   }
   .header-image .card-details {
-
+    margin-top: -90px;
   }
   .header-image .card-details img {
-
+    max-width: 101px;
+    max-height: 88px;
   }
   .header-image .fresh-orenge {
+    margin-top: -30px;
     font-weight: 600;
     font-size: 12px;
   }
@@ -632,12 +443,13 @@ body {
   .header-image .card-1 .basket {
     margin-top: -170px;
   }
-  .header-image .chef img {
-    flex-direction: row;
-  }
   .header-image .card-2 {
-    flex-direction: row;
     border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 420px;
+    margin-left: -110px;
+    margin-right: 200px;
+    margin-top: 70px;
   }
   .header-image .alarm-clock-icon {
     width: 34px;
@@ -653,11 +465,247 @@ body {
     font-weight: 500;
   }
   .header-image .arrow {
-    flex-direction: row;
     margin-left: -320px;
     margin-top: -70px;
   }
 }
-  /* berfinesenn [BE] Hero Section Responsive Finished*/
-
-/* berfinesenn/BE-13-hero-section-responsiveness  Finished */
+@media only screen and (max-width: 770px) {
+  .hero-section {
+    max-width: 600px;
+    padding: 0;
+    left: 0;
+    margin: 10px;
+    flex-direction: column;
+  }
+  .hero-section .header-image {
+    max-width: 500px;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  .hero-section {
+    max-width: 400px;
+    padding: 0;
+    left: 0;
+    margin: 10px;
+    flex-direction: column;
+  }
+  .hero-section .header-image {
+    max-width: 600px;
+    margin: 40px;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .hero-section {
+    max-width: 400px;
+    padding: 0;
+    left: 0;
+    margin: 10px;
+    flex-direction: column;
+  }
+  .hero-section .text-1 {
+    font-size: 11px;
+  }
+  .hero-section .strawberry-icon {
+    padding-left: 100px;
+  }
+  .hero-section .container-1 {
+    max-width: 35%;
+  }
+  .hero-section .container-2 {
+    max-width: 678px;
+    max-height: 264px;
+    font-size: 20px;
+  }
+  .hero-section .paragraph {
+    font-size: 17px;
+    font-weight: 300px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+  }
+  .header-content .button-order-now {
+    width: 120px;
+    height: 60px;
+  }
+  .header-content .order-now {
+    font-size: 15px;
+  }
+  .header-content .button-play {
+    width: 40px;
+    height: 40px;
+  }
+  .header-content .order-process-1 {
+    font-size: 16px;
+  }
+  .hero-section .header-image {
+    max-width: 300px;
+    max-height: 430px;
+    padding: 0;
+    left: 0;
+    margin: 0;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .header-image .chef img {
+    max-width: 300px;
+  }
+  .header-image .card-1 .board {
+    max-width: 230px;
+  }
+  .header-image .card-details img {
+    max-width: 60px;
+    max-height: 68px;
+  }
+  .header-image .fresh-orenge {
+    margin-top: -20px;
+    font-weight: 600;
+    font-size: 11px;
+  }
+  .header-image .orange-line {
+    margin-top: -10px;
+    border-radius: 1px 0px 0px 0px;
+  }
+  .header-image .container-3 {
+    font-size: 19px;
+  }
+  .header-image .card-1 .basket {
+    max-width: 110px;
+    margin-top: -150px;
+  }
+  .header-image .card-2 {
+    max-width: 150px;
+  }
+  .header-image .alarm-clock-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .header-image .delivary {
+    font-size: 15px;
+  }
+  .header-image .delivery-1 {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .header-image .arrow {
+    max-width: 20%;
+    margin-left: -300px;
+  }
+}
+@media only screen and (max-width: 394px) {
+  .hero-section {
+    max-width: 300px;
+    padding: 0;
+    left: 0;
+    margin: 10px;
+  }
+  .hero-section .text-1 {
+    font-size: 7px;
+    margin: 0 auto;
+  }
+  .hero-section .strawberry-icon {
+    width: 50%;
+    padding-left: 50px;
+    padding-top: -40px;
+  }
+  .hero-section .container-1 {
+    max-width: 20%;
+    height: 14px;
+  }
+  .hero-section .container-2 {
+    max-width: 278px;
+    max-height: 264px;
+    font-size: 10px;
+  }
+  .hero-section .paragraph {
+    max-width: 278px;
+    font-size: 9px;
+    font-weight: 300px;
+    line-height: 15px;
+  }
+  .header-content .button-order-now {
+    width: 50px;
+    height: 20px;
+    border-radius: 8px;
+  }
+  .header-content .order-now {
+    font-size: 7px;
+  }
+  .header-content .button-play {
+    width: 5px;
+    height: 5px;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+  .header-content .order-process-1 {
+    margin-top: 7px;
+    margin-left: 15px;
+    font-size: 7px;
+  }
+  .hero-section .header-image {
+    max-width: 150px;
+    max-height: 200px;
+    padding: 0;
+    left: 0;
+    margin: 0px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .header-image .chef img {
+    max-width: 200px;
+  }
+  .header-image .card-1 .board {
+    max-width: 190px;
+    margin-right: 34px;
+  }
+  .header-image .card-details img {
+    max-width: 30px;
+    max-height: 38px;
+    margin-right: 34px;
+  }
+  .header-image .fresh-orenge {
+    margin-top: -10px;
+    font-weight: 600;
+    font-size: 7px;
+    margin-right: 34px;
+  }
+  .header-image .container-3 {
+    font-size: 15px;
+    margin-right: 34px;
+  }
+  .header-image .free-shipping-1 {
+    font-size: 7px;
+    font-weight: 500;
+    margin-right: 34px;
+  }
+  .header-image .card-1 .basket {
+    max-width: 90px;
+    margin-top: -130px;
+    margin-right: 34px;
+  }
+  .header-image .card-2 {
+    max-width: 70px;
+    margin-top: 190px;
+    margin-left: -70px;
+  }
+  .header-image .alarm-clock-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .header-image .delivary {
+    font-size: 10px;
+  }
+  .header-image .delivery-1 {
+    font-size: 8px;
+    font-weight: 500;
+  }
+  .header-image .arrow img {
+    max-width: 80px;
+    max-height: 100px;
+    margin-left: 15px;
+  }
+}
+/* berfinesenn/BE-13-hero-section-responsiveness Finished */

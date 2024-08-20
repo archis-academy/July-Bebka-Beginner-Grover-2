@@ -524,7 +524,7 @@ footer {
   color: #333;
 }
 
-/*Footer responsives*/
+/*Footer responsives başlangıç*/
 
 @media (max-width: 1024px) {
   .footer-bottom {
@@ -554,7 +554,6 @@ footer {
   }
 }
 
-
 @media (max-width: 480px) {
   .footer-bottom {
       padding: 10px 10px;
@@ -573,6 +572,5 @@ footer {
       font-size: 11px;
   }
 }
-
-
+/*Footer responsives bitiş*/
 /*footer bitiş*/

@@ -489,16 +489,38 @@ footer {
     margin-right: 100px;
 }
 
+.footer-bottom {
+  border-top: 1px solid #eaeaea;
+  padding: 20px 70px;
+  margin-top: 20px;
+  color: #7a7a7a;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+.footer-links {
+  display: flex;
+  gap: 20px; 
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
 
-@media screen and (max-width: 768px) {
-    .footer-container, .footer-links {
-        flex-direction: column;
-        text-align: center;
-    }
+.footer-links li {
+  margin: 0;
+}
 
-    .footer-links div {
-        margin-bottom: 20px;
-    }
+.footer-links a {
+  text-decoration: none;
+  color: #7a7a7a;
+  font-size: 12px;
+}
+
+.footer-links a:hover {
+  color: #333;
 }
 /*footer bitiş*/

@@ -50,9 +50,9 @@ body {
 .nav-list a {
   width: 72px;
   height: 24px;
-  
+
   color:#4D4D4D;
-  
+
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -83,8 +83,8 @@ body {
   align-items: center;
   border-radius: 20px;
   border: 1px solid #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  padding: 12px 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 12px 10px;
 }
 
 .search-cart input[type="text"] {
@@ -95,7 +95,7 @@ body {
   border-radius: 3px;
   margin-right: 10px;
 
-  
+
 }
 
 .cart-button {
@@ -103,7 +103,7 @@ body {
   background: none;
   border: none;
   cursor: pointer;
-  
+
 }
 
 .cart-button img {
@@ -111,7 +111,7 @@ body {
 }
 
 .cart-count {
-  
+
   position: absolute;
   top: -10px;
   right: -5px;
@@ -121,7 +121,7 @@ body {
   border-radius: 50%;
   padding: 2px 5px;
   font-size: 12px;
-  
+
 
 }
 
@@ -710,19 +710,10 @@ body {
   /* berfinesenn[BE-7] Hero Section Finished */
 
   /*footer başlangıç*/
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-}
 
-footer {
+
+.footer {
     background-color: #fff;
     padding: 40px 0;
     border-top: 1px solid #eaeaea;
@@ -737,7 +728,7 @@ footer {
     max-width: 1200px;
     margin: 0 55px;
     padding: 0 100px;
-    
+
 }
 
 .footer-logo img {
@@ -801,7 +792,7 @@ footer {
     color: #7a7a7a;
     font-size: 12px;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
@@ -811,8 +802,8 @@ footer {
 
 
 .footer-links {
-    display: flex; 
-    gap: 20px; 
+    display: flex;
+    gap: 20px;
     margin-right: 100px;
 }
 
@@ -823,7 +814,7 @@ footer {
   color: #7a7a7a;
   font-size: 12px;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
@@ -831,8 +822,8 @@ footer {
 
 .footer-links {
   display: flex;
-  gap: 20px; 
-  list-style: none; 
+  gap: 20px;
+  list-style: none;
   padding: 0;
   margin: 0;
 }
@@ -1107,10 +1098,10 @@ footer {
 
 .Feater-section {
   position: absolute;
-  top: 97px; 
-  left: 160px; 
-  right: 617px; 
-  bottom: 79px; 
+  top: 97px;
+  left: 160px;
+  right: 617px;
+  bottom: 79px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1192,10 +1183,10 @@ footer {
 
 .image-container {
   position: absolute;
-  top: 200px; 
-  right: 83px; 
-  bottom: 100px; 
-  left: 779px; 
+  top: 200px;
+  right: 83px;
+  bottom: 100px;
+  left: 779px;
   box-sizing: border-box;
   display: flex;
   align-items: flex-end; /* Aligns the bottom of the image */
@@ -1210,15 +1201,15 @@ footer {
 
 .feater-overlay-container {
   position: absolute;
-  top: 190px; 
-  left: 1100px; 
-  right: 93px; 
-  bottom: 180px; 
+  top: 190px;
+  left: 1100px;
+  right: 93px;
+  bottom: 180px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 166px; 
+  width: 166px;
   background: rgba(255, 255, 255, 255); /* Yarı saydam arka plan */
   border-radius: 8px;
   padding: 10px;
@@ -1230,13 +1221,13 @@ footer {
 .feater-overlay-icon {
   position: relative; /* İkonun başlık ile birlikte hizalanmasını sağlar */
   background: #f8dddd;
-  width: 126px; 
-  height: 80px; 
+  width: 126px;
+  height: 80px;
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
 }
 
 .feater-overlay-icon img {
@@ -1246,9 +1237,9 @@ footer {
 
 .feater-overlay-container h3 {
   font-family: "Inter";
-  font-size: 16px; 
+  font-size: 16px;
   color:#2E2E2E;
-  margin-bottom:-10px; 
+  margin-bottom:-10px;
   text-align: center;
   line-height: 20px;
   letter-spacing: -0.01em;
@@ -1256,7 +1247,7 @@ footer {
 
 .feater-overlay-container p {
   font-family: "Inter";
-  font-size: 14px; 
+  font-size: 14px;
   font-weight: 400;
   color: #676767;
   text-align: center;
@@ -1265,17 +1256,7 @@ footer {
 /*--beyza[BE-9] Feature Section-2 Finished--*/
 
 /*footer başlangıç*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f4;
-}
 
 footer {
   background-color: #fff;
@@ -1292,7 +1273,7 @@ footer {
   max-width: 1200px;
   margin: 0 55px;
   padding: 0 100px;
-  
+
 }
 
 .footer-logo img {
@@ -1356,7 +1337,7 @@ footer {
   color: #7a7a7a;
   font-size: 12px;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
@@ -1366,8 +1347,8 @@ footer {
 
 
 .footer-links {
-  display: flex; 
-  gap: 20px; 
+  display: flex;
+  gap: 20px;
   margin-right: 100px;
 }
 
@@ -1378,7 +1359,7 @@ margin-top: 20px;
 color: #7a7a7a;
 font-size: 12px;
 display: flex;
-justify-content: space-between; 
+justify-content: space-between;
 align-items: center;
 max-width: 1200px;
 margin: 0 auto;
@@ -1386,8 +1367,8 @@ margin: 0 auto;
 
 .footer-links {
 display: flex;
-gap: 20px; 
-list-style: none; 
+gap: 20px;
+list-style: none;
 padding: 0;
 margin: 0;
 }

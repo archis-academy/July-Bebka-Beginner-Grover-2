@@ -393,7 +393,7 @@ body {
   text-align: center;
   position: relative;
   margin-top:100px;
-git 
+
 }
 
 .service-header {
@@ -416,7 +416,7 @@ git
 .services-cards {
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 80px;
 }
 
 /* Kartlar */
@@ -425,7 +425,7 @@ git
 .third-card {
   background-color: #fff;
   border-radius: 12px;
-  padding: 0px;
+  padding: 20px;
   width:100%;
   height: auto;
   max-width:300px;
@@ -437,21 +437,24 @@ git
 .middle-card-container {
   position: relative;
   max-width: 300px;
-  height: 310px;
+ 
 
 }
 
 .middle-card {
   position: relative;
   z-index: 2;
+  padding: 15px;
 }
 
 .pink-background {
   position: absolute;
   top: 0;
-  left: 15px;
-  width: 305px;
-  height: 330px;
+  left: 40px;
+  width: 100%;
+  max-width: 310px;
+  padding-top: 100%;
+  height: auto;
   background-color: rgba(254, 106, 106, 1);
   z-index: 1;
   border-radius: 12px;

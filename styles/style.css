@@ -384,13 +384,16 @@ body {
 
   /* Deniz Angın Service Section started*/
 .services-section {
+  max-width: 1280px;
+  margin:0 auto;
   font-family:'poppins';
   padding: 40px 20px;
   background-color:#FDEDEC; 
   border-radius: 12px;
   text-align: center;
   position: relative;
-  margin: 20px;
+  margin-top:50px;
+
 }
 
 .service-header {

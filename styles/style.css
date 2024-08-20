@@ -1130,6 +1130,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 80px;
+    
   }
   
   /* Kartlar */
@@ -1155,22 +1156,26 @@ footer {
 
   .middle-card {
     position: relative;
+    max-width:320px;
+    height: 340px;
     z-index: 2;
     padding: 15px;
+    background-color: #fff; /* Ensure middle card stays visible */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
   .pink-background {
     position: absolute;
-    top: 0;
-    left: 40px;
+    top: 0px;
+    left: 50px;
     width: 100%;
-    max-width: 310px;
-    padding-top: 100%;
-    height: auto;
+    max-width: 360px;
+    height: 380px;
     background-color: rgba(254, 106, 106, 1);
     z-index: 1;
     border-radius: 12px;
-    transform: rotate(-5deg);
+    transform: translateX(0%) rotate(-5deg);
     transform-origin: center;
   }
   

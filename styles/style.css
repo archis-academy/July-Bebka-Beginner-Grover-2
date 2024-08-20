@@ -409,7 +409,7 @@ footer {
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 55px;
-    padding: 0 20px;
+    padding: 0 100px;
     
 }
 
@@ -466,6 +466,7 @@ footer {
     font-size: 14px;
 }
 
+
 .footer-bottom {
     border-top: 1px solid #eaeaea;
     padding: 20px 70px;
@@ -474,6 +475,10 @@ footer {
     font-size: 12px;
     display: flex;
     align-items: center; 
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -481,7 +486,7 @@ footer {
 .footer-links {
     display: flex; 
     gap: 20px; 
-    margin-right: 130px;
+    margin-right: 100px;
 }
 
 

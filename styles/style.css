@@ -1479,6 +1479,7 @@ color: #333;
     align-items: center;
     width: 100%;
     max-width: 768px;
+    text-align: center;
   }
 
   .footer-links div {
@@ -1519,6 +1520,7 @@ color: #333;
     padding: 0 20px;
     text-align: center;
     width: 100%;
+    text-align: center;
   }
 
   .footer-container p {

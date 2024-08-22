@@ -717,11 +717,14 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    
 }
 
 .footer-links div {
     flex: 1;
     margin-right: 40px;
+    
+
 }
 
 .footer-links h6 {
@@ -732,10 +735,13 @@ footer {
 
 .footer-links ul {
     list-style: none;
+   
 }
 
 .footer-links ul li {
     margin-bottom: 10px;
+  
+    
 }
 
 .footer-links ul li a {

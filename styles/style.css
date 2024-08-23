@@ -1580,28 +1580,31 @@ color: #333;
 
 /*denizresponsive*/
 @media (max-width: 1024px) {
+  .services-section{
+    margin-top: 400px;
+  }
   .services-cards {
     flex-direction: column;
     align-items: center;
     gap: 40px;
     justify-content: center;
   }
-
- 
   .middle-card-container,
   .middle-card {
-    width: 100%;
     height: auto;
     max-width:315px;
-  
   }
-
  .pink-background{
-  height: 310px;
+  height: 305px;
  }
 }
 
 @media (max-width: 768px) {
+
+  .services-section{
+    margin-top: 400px;
+ 
+  }
   .services-cards {
     flex-direction: column;
     align-items: center;
@@ -1613,17 +1616,22 @@ color: #333;
   .third-card {
     width: 100%;
     height: auto;
+  
   }
 
   .middle-card-container,
   .middle-card {
     width: 100%;
     height: auto;
+    right: 5px;
   }
  
 }
 
 @media (max-width: 480px) {
+  .services-section{
+    margin-top: 400px;
+  }
   .services-cards {
     flex-direction: column;
     align-items: center;

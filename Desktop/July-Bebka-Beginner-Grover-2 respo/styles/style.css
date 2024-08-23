@@ -1160,49 +1160,67 @@ footer {
 
 /*deniz service section responsive*/
   /* service section Responsive adjustments */
-  @media (max-width: 768px) {
-    .services-section{
-      margin-top: 700px;
-    }
+  @media (max-width: 1024px) {
     .services-cards {
-      flex-direction: column;
-      text-align: center;
-      align-items: center;
-      gap: 50px; /* Reduce gap between cards */
+      gap: 60px;
     }
-  .first-card,
-  .middle-card,
-  .third-card {
-    height: 280px; /* Daha küçük ekranlar için yükseklik ayarı */
-    max-width: 280px;
-  }
+    .first-card,
+    .middle-card,
+    .third-card {
+      max-width: 280px;
+      height: 280px;
+    }
     .middle-card-container {
-      max-width: 100%; /* Ensure container takes full width on small screens */
+      max-width: 280px;
     }
     .pink-background {
-      max-width: 320px; /* Adjust size for smaller screens */
+      max-width: 320px;
       max-height: 320px;
-      left: 100%;
-      transform:translateX(-95%)  rotate(-3deg); /* Less rotation on smaller screens */
+      left: 50%;
+      transform: translateX(-50%) rotate(-3deg);
     }
-  @media (max-width: 480px) {
+  }
+  
+  @media (max-width: 768px) {
     .services-cards {
       flex-direction: column;
       align-items: center;
-      gap: 30px;
+      gap: 40px;
     }
-    .pink-background {
-      left: 50%;
-      transform: translateX(-50%) rotate(-2deg);
-      width: 100%;
-      max-width: 270px;
-    }
-    .middle-card {
-      max-width: 270px;
+    .first-card,
+    .middle-card,
+    .third-card {
+      max-width: 100%;
       height: auto;
     }
+    .middle-card-container {
+      max-width: 100%;
+    }
+    .pink-background {
+      max-width: 100%;
+      max-height: 280px;
+      left: 50%;
+      transform: translateX(-50%) rotate(-2deg);
+    }
   }
-}
+  
+  @media (max-width: 480px) {
+    .services-cards {
+      gap: 20px;
+    }
+    .first-card,
+    .middle-card,
+    .third-card {
+      max-width: 100%;
+      height: auto;
+    }
+    .pink-background {
+      max-width: 100%;
+      max-height: 250px;
+      left: 50%;
+      transform: translateX(-50%) rotate(-1deg);
+    }
+  }
 
 /*deniz service-section responsie finished*/
 

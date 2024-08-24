@@ -1121,7 +1121,7 @@ footer {
     height: 340px;
     z-index: 2;
     padding: 15px;
-    background-color: #fff; /* Ensure middle card stays visible */
+    background-color: #fff; 
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
@@ -1162,13 +1162,84 @@ footer {
     line-height: 1.5;
   }
   /*Deniz Angın service section finished*/
+
+  /*deniz service section responsive*/
+  /* service section Responsive adjustments */
+  @media (max-width: 1024px) {
+
+    .services-section{
+      margin-top:400px;
+
+    }
+    .services-cards {
+      gap: 60px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    
+    }
+    
+    .middle-card-container,
+    .middle-card {
+      max-width: 320px;
+      width: 100%;
+      height: 310px;
+      left:-5px;
+      padding-bottom: 15px;
+      
+    }
+    .pink-background {
+      left: 210px; 
+      transform: translateX(-50%) rotate(-5deg); 
+      height: 310px;
+      max-width: 310px;
+    }
+  
+  @media (max-width: 768px) {
+   
+    .services-cards {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+   
+    .middle-card-container,
+    .middle-card {
+     width: 100%;
+     height: auto;
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+    
+    .services-cards {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    
+    }
+    }
+    .middle-card-container,
+    .middle-card {
+     width: 100%;
+     height: auto;
+    }
+    .pink-background {
+      max-width: 300px;
+    
+  }
+}
+
+/*deniz service-section responsive finished*/
+
  /*--beyza[BE-9] Feature Section-2 Started--*/
  .Feater-container {
   width: 1296px;
   height: 684px;
   padding: 0;
   margin: auto;
-  position: relative; /* İçerikleri konumlandırmak için */
+  position: relative; 
   box-sizing: border-box;
 }
 
@@ -1190,7 +1261,7 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  height: auto; /* İçerik yüksekliğine göre uyum sağlar */
+  height: auto; 
 }
 
 .Feater-section .container-2 {
@@ -1265,14 +1336,14 @@ footer {
   left: 779px;
   box-sizing: border-box;
   display: flex;
-  align-items: flex-end; /* Aligns the bottom of the image */
-  overflow: visible; /* Hides any overflow from the image */
+  align-items: flex-end; 
+  overflow: visible; 
 }
 
 .image-container img {
   width: 100%;
-  height: auto; /* Keeps the image’s aspect ratio */
-  object-fit: contain; /* Ensures the image is scaled to fit its container */
+  height: auto;
+  object-fit: contain; 
 }
 
 .feater-overlay-container {
@@ -1286,16 +1357,16 @@ footer {
   align-items: center;
   justify-content: center;
   width: 166px;
-  background: rgba(255, 255, 255, 255); /* Yarı saydam arka plan */
+  background: rgba(255, 255, 255, 255); 
   border-radius: 8px;
   padding: 10px;
   box-sizing: border-box;
-  z-index: 2; /* Yazıların diğer öğelerin önünde görünmesini sağlar */
-  position: relative; /* İkonu konumlandırmak için */
+  z-index: 2;
+  position: relative;
 }
 
 .feater-overlay-icon {
-  position: relative; /* İkonun başlık ile birlikte hizalanmasını sağlar */
+  position: relative; 
   background: #f8dddd;
   width: 126px;
   height: 80px;
@@ -1577,76 +1648,4 @@ color: #333;
   }
 }
 /*footer bitiş*/
-
-/*denizresponsive*/
-@media (max-width: 1024px) {
-  .services-section{
-    margin-top: 400px;
-  }
-  .services-cards {
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    justify-content: center;
-  }
-  .middle-card-container,
-  .middle-card {
-    height: auto;
-    max-width:315px;
-  }
- .pink-background{
-  height: 305px;
- }
-}
-
-@media (max-width: 768px) {
-
-  .services-section{
-    margin-top: 400px;
- 
-  }
-  .services-cards {
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-  }
-
-  .first-card,
-  .middle-card,
-  .third-card {
-    width: 100%;
-    height: auto;
-  
-  }
-
-  .middle-card-container,
-  .middle-card {
-    width: 100%;
-    height: auto;
-    right: 5px;
-  }
- 
-}
-
-@media (max-width: 480px) {
-  .services-section{
-    margin-top: 400px;
-  }
-  .services-cards {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .middle-card-container,
-  .middle-card {
-    width: 100%;
-    height: auto;
-
-  }
-  .pink-background{
-    max-width: 270px;
-  }
-
-}
 

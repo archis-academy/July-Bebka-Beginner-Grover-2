@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  box-sizing: border-box;
 }
 .header {
   display: flex;
@@ -1074,7 +1075,7 @@ footer {
     margin-bottom: 30px;
   }
   
-  /* Başlık stilleri */
+
   .small-heading {
     font-size: 24px;
     color: rgba(245,71,72,1);
@@ -1101,27 +1102,22 @@ footer {
     background-color: #fff;
     border-radius: 12px;
     padding: 20px;
-    width:100%;
-    height: auto;
-    max-width:300px;
+    height: 340px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: relative
+    position: relative;
   
   }
   
   .middle-card-container {
     position: relative;
-    max-width: 300px;
    
   }
 
   .middle-card {
     position: relative;
-    max-width:320px;
-    min-width: 300px;
-    height: 340px;
     z-index: 2;
-    padding: 15px;
+    height: 330px;
+    padding: 30px;
     background-color: #fff; 
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -1130,9 +1126,8 @@ footer {
   .pink-background {
     position: absolute;
     top: 0px;
-    left: 50px;
-    width: 100%;
-    max-width: 360px;
+    left: 10px;
+    width: 105%;
     height: 380px;
     background-color: rgba(254, 106, 106, 1);
     z-index: 1;
@@ -1161,81 +1156,24 @@ footer {
     font-size: 16px;
     color: #555;
     line-height: 1.5;
+    max-width: 40ch;
   }
   /*Deniz Angın service section finished*/
 
   /*deniz service section responsive*/
-  @media (max-width: 1240px) {
-  
-    .services-cards {
-      align-items: center;
-      gap: 50px;
-      justify-content: center;
-    
-    }
-    .middle-card-container, 
-    .middle-card{
-      position: relative;
-      height: auto;
-      max-width: 310px;
-      left:-5px;
-  
-    }
-    
-    .pink-background {
-      left: 220px; 
-      transform: translateX(-55%) rotate(-5deg); 
-      height: 310px;
-      max-width: 325px;
-    }
-  
   @media (max-width: 850px) {
     .services-section{
-      max-width:840px;
-      margin-top:650px;
-
+      margin-top: 700px;
     }
-  
     .services-cards {
       flex-direction: column;
       align-items: center;
       justify-content: center;
       gap: 50px;
-      
     }
-   
-  
-    .pink-background {
-      left: 80%; 
-      transform: translateX(-55%) rotate(-5deg); 
-      height: 310px;
-      max-width: 325px;
-    }
-  
   }
   
-  @media (max-width: 485px) {
-    .services-section{
-      margin-top: 450px;
-      max-width: 400px;
-      
-    }
-   
-    .services-cards {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 40px;
-    }
-    }
-    .pink-background {
-      max-width: 320px;
-      left:205px;
-      height: 305px;
   
-  }
-}
-
 /*deniz service-section responsive finished*/
 
  /*--beyza[BE-9] Feature Section-2 Started--*/

@@ -1172,6 +1172,11 @@ footer {
       gap: 50px;
     }
   }
+  @media (max-width: 490px){
+  .services-section{
+    margin-top: 400px;
+  }
+}
   
   
 /*deniz service-section responsive finished*/

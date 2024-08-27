@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  box-sizing: border-box;
 }
 .header {
   display: flex;
@@ -1067,14 +1068,14 @@ footer {
     text-align: center;
     position: relative;
     margin-top:100px;
-  
+
   }
   
   .service-header {
     margin-bottom: 30px;
   }
   
-  /* Başlık stilleri */
+
   .small-heading {
     font-size: 24px;
     color: rgba(245,71,72,1);
@@ -1101,27 +1102,23 @@ footer {
     background-color: #fff;
     border-radius: 12px;
     padding: 20px;
-    width:100%;
-    height: auto;
-    max-width:300px;
+    height: 340px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: relative
+    position: relative;
   
   }
   
   .middle-card-container {
     position: relative;
-    max-width: 300px;
    
   }
 
   .middle-card {
     position: relative;
-    max-width:320px;
-    height: 340px;
     z-index: 2;
-    padding: 15px;
-    background-color: #fff; /* Ensure middle card stays visible */
+    height: 330px;
+    padding: 30px;
+    background-color: #fff; 
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
@@ -1129,9 +1126,8 @@ footer {
   .pink-background {
     position: absolute;
     top: 0px;
-    left: 50px;
-    width: 100%;
-    max-width: 360px;
+    left: 10px;
+    width: 105%;
     height: 380px;
     background-color: rgba(254, 106, 106, 1);
     z-index: 1;
@@ -1160,15 +1156,38 @@ footer {
     font-size: 16px;
     color: #555;
     line-height: 1.5;
+    max-width: 40ch;
   }
   /*Deniz Angın service section finished*/
+
+  /*deniz service section responsive*/
+  @media (max-width: 850px) {
+    .services-section{
+      margin-top: 700px;
+    }
+    .services-cards {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+    }
+  }
+  @media (max-width: 490px){
+  .services-section{
+    margin-top: 400px;
+  }
+}
+  
+  
+/*deniz service-section responsive finished*/
+
  /*--beyza[BE-9] Feature Section-2 Started--*/
  .Feater-container {
   width: 1296px;
   height: 684px;
   padding: 0;
   margin: auto;
-  position: relative; /* İçerikleri konumlandırmak için */
+  position: relative; 
   box-sizing: border-box;
 }
 
@@ -1190,7 +1209,7 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  height: auto; /* İçerik yüksekliğine göre uyum sağlar */
+  height: auto; 
 }
 
 .Feater-section .container-2 {
@@ -1265,14 +1284,14 @@ footer {
   left: 779px;
   box-sizing: border-box;
   display: flex;
-  align-items: flex-end; /* Aligns the bottom of the image */
-  overflow: visible; /* Hides any overflow from the image */
+  align-items: flex-end; 
+  overflow: visible; 
 }
 
 .image-container img {
   width: 100%;
-  height: auto; /* Keeps the image’s aspect ratio */
-  object-fit: contain; /* Ensures the image is scaled to fit its container */
+  height: auto;
+  object-fit: contain; 
 }
 
 .feater-overlay-container {
@@ -1286,16 +1305,16 @@ footer {
   align-items: center;
   justify-content: center;
   width: 166px;
-  background: rgba(255, 255, 255, 255); /* Yarı saydam arka plan */
+  background: rgba(255, 255, 255, 255); 
   border-radius: 8px;
   padding: 10px;
   box-sizing: border-box;
-  z-index: 2; /* Yazıların diğer öğelerin önünde görünmesini sağlar */
-  position: relative; /* İkonu konumlandırmak için */
+  z-index: 2;
+  position: relative;
 }
 
 .feater-overlay-icon {
-  position: relative; /* İkonun başlık ile birlikte hizalanmasını sağlar */
+  position: relative; 
   background: #f8dddd;
   width: 126px;
   height: 80px;
@@ -1577,5 +1596,4 @@ color: #333;
   }
 }
 /*footer bitiş*/
-
 

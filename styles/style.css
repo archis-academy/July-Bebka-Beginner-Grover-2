@@ -129,7 +129,7 @@ body {
     height: 755px;
     background-color: #FEF5F5;
     border: none;
-    margin: 0 auto;
+    margin: 40px auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -184,6 +184,7 @@ body {
     top: 479px;
     left: 722.19px;
     border: none;
+    background-color: #FEF5F5;
 }
 
 .play-store-button {
@@ -194,6 +195,7 @@ body {
     margin-top: 0;
     gap: 0px;
     border: none;
+    background-color: #FEF5F5;
 }
 
 

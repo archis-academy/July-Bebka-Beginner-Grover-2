@@ -92,16 +92,95 @@ body {
   height: 24px;
 }
 .cart-count {
-  position: absolute;
-  top: -10px;
-  right: -5px;
-  background-color: #F55253;
-  box-shadow: 0 4px 8px #EE4343AD;
-  color: white;
-  border-radius: 50%;
-  padding: 2px 5px;
-  font-size: 12px;
+    
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    background-color: #F55253;
+    box-shadow: 0 4px 8px #EE4343AD;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+    
+
 }
+.cta-section {
+    width: 1440px;
+    height: 755px;
+    background-color: #FEF5F5;
+    border: none;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.content {
+    width: 466px;
+    height: 362px;
+    margin-top: 197px;
+    margin-left: 181px;
+    gap: 0px;
+    opacity: 0px;
+    overflow-wrap: break-word;
+}
+
+.mobile {
+    width: 289.39px;
+    height: 555px;
+    margin-top: 100px;
+    margin-left: 252px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#title {
+    font-family:Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #2e2e2e;
+
+}
+
+#content-text {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 30px;
+    max-width: 100%;
+    overflow-wrap: break-word;
+
+}
+
+.app-store-button {
+    width: 208px;
+    height: 80px;
+    top: 479px;
+    left: 722.19px;
+    border: none;
+    background-color: #FEF5F5;
+}
+
+.play-store-button {
+    width: 200px;
+    height: 80px;
+    top: 479px;
+    margin-left: 30px;
+    margin-top: 0;
+    gap: 0px;
+    border: none;
+    background-color: #FEF5F5;
+}
+
+
+
 /* Başlangıç: Responsive Tasarım */
 @media (max-width: 768px) {
   .header {
@@ -682,7 +761,79 @@ body {
     margin-top: -70px;
   }
   /* berfinesenn[BE-7] Hero Section Finished */
+.cta-section {
+    width: 1440px;
+    height: 755px;
+    background-color: #FEF5F5;
+    border: none;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
+.content {
+    width: 466px;
+    height: 362px;
+    margin-top: 197px;
+    margin-left: 181px;
+    gap: 0px;
+    opacity: 0px;
+    overflow-wrap: break-word;
+}
+
+.mobile {
+    width: 289.39px;
+    height: 555px;
+    margin-top: 100px;
+    margin-left: 252px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#title {
+    font-family:Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #2e2e2e;
+
+}
+
+#content-text {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 30px;
+    max-width: 100%;
+    overflow-wrap: break-word;
+
+}
+
+.app-store-button {
+    width: 208px;
+    height: 80px;
+    top: 479px;
+    left: 722.19px;
+    border: none;
+    background-color: #FEF5F5;
+}
+
+.play-store-button {
+    width: 200px;
+    height: 80px;
+    top: 479px;
+    margin-left: 30px;
+    margin-top: 0;
+    gap: 0px;
+    border: none;
+    background-color: #FEF5F5;
+}
   /*footer başlangıç*/
 footer {
     background-color: #fff;

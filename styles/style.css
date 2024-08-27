@@ -105,80 +105,113 @@ body {
     
 
 }
-.cta-section {
-    width: 1440px;
-    height: 755px;
-    background-color: #FEF5F5;
-    border: none;
-    margin: 40px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+ /*Cta Section Start */
+ .container-cta{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 755px; 
+  max-width: 1260px;
+  height: 755px;
+  background-color: #FEF5F5;
+  border: none;
+  margin: 40px auto;
 }
-
-.content {
-    width: 466px;
-    height: 362px;
-    margin-top: 197px;
-    margin-left: 181px;
-    gap: 0px;
-    opacity: 0px;
-    overflow-wrap: break-word;
+.cta-mobile{
+  margin-top: 100px;
+  margin-left: 240px;
+  gap: 0px;
+  opacity: 0px;
+  align-items: center;
 }
-
-.mobile {
-    width: 289.39px;
-    height: 555px;
-    margin-top: 100px;
-    margin-left: 252px;
-    gap: 0px;
-    opacity: 0px;
+.cta-content{
+  max-width: 466px;
+  margin-top: 197px;
+  margin-left: 80px;
+  gap: 0px;
+  opacity: 0px;
+  overflow-wrap: break-word;
 }
-
-#title {
-    font-family:Poppins;
-    font-size: 40px;
-    font-weight: 700;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    text-align: left;
-    color: #2e2e2e;
-
-}
-
-#content-text {
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    margin-bottom: 30px;
-    max-width: 100%;
-    overflow-wrap: break-word;
-
-}
-
 .app-store-button {
-    width: 208px;
-    height: 80px;
-    top: 479px;
-    left: 722.19px;
-    border: none;
-    background-color: #FEF5F5;
+  width: 208px;
+  height: 80px;
+  top: 479px;
+  left: 722.19px;
+  border: none;
+  background-color: #FEF5F5;
 }
 
 .play-store-button {
-    width: 200px;
-    height: 80px;
-    top: 479px;
-    margin-left: 30px;
-    margin-top: 0;
-    gap: 0px;
-    border: none;
-    background-color: #FEF5F5;
+  width: 200px;
+  height: 80px;
+  top: 479px;
+  margin-left: 32px;
+  margin-top: 0;
+  gap: 0px;
+  border: none;
+  background-color: #FEF5F5;
+}
+#title {
+font-family:Poppins;
+font-size: 40px;
+font-weight: 700;
+margin-top: 10px;
+margin-bottom: 20px;
+text-align: left;
+color: #2e2e2e;
+
+}
+/* Media Queries for Responsive Design */
+@media (max-width: 800px) {
+.container-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
 }
 
+.cta-mobile {
+  margin-left: 0;
+  margin-top: 20px;
+  opacity: 1; /* İstediğin görünürlük seviyesine göre değiştir */
+}
+
+.cta-content {
+  margin-left: 0;
+  margin-top: 20px;
+  max-width: 100%;
+  text-align: center;
+  opacity: 1; /* İstediğin görünürlük seviyesine göre değiştir */
+}
+
+
+/* Butonlar için flex yapısı */
+.cta-content-buttons {
+display: flex;
+flex-direction: column; /* Butonları üst üste sıralar */
+justify-content: center; /* Butonları yatayda ortalar */
+align-items: center;
+gap: 24px; /* Butonlar arasındaki boşluğu artır */
+margin-top: 20px;
+}
+
+.app-store-button,
+.play-store-button {
+width: 100%;
+max-width: 200px; /* Ekran genişliği daha küçükse butonların genişliği 200px olur */
+height: 60px;
+text-align: center;
+}
+
+.play-store-button {
+margin-left: 0; /* Üst üste hizalama için sol margin sıfırlanır */
+}
+
+#title {
+  font-size: 32px;
+  text-align: center;
+}
+}
+/*cta section end*/
 
 
 /* Başlangıç: Responsive Tasarım */

@@ -155,7 +155,6 @@ body {
   font-family: "Poppins", sans-serif;
   display: flex;
   max-width: 1296px;
-  max-height: 605px;
   margin: auto;
 }
 .hero-section .header-content {

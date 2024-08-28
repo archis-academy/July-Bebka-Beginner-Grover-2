@@ -1329,8 +1329,188 @@ footer {
   }
 }
   
-  
 /*deniz service-section responsive finished*/
+/*deniz BE-5 feauture-section started*/
+.feature-section {
+  max-width: 1240px;
+  margin: auto;
+  font-family:'poppins';
+  background-color:white;
+  margin-top: 90px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.orange-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 600px;
+  text-align: center;
+}
+
+.strawberry-card {
+  background-color: white;
+  padding: 10px;
+  min-width:100px;
+  max-width: 220px;  
+  height: 240px;/* Adjusted width based on the screenshot */
+  border:0 solid #e0e0e0;
+  border-radius:10px;
+  text-align: center;
+  position: absolute;
+  top:50%;
+  right: 0;
+  transform: translate(0%, 0%);
+  z-index: 3;
+
+}
+
+.strawberry-card img {
+  width: 100px;
+  height: 63px;
+  object-fit: contain;
+  margin-bottom: 5px;
+  
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color:rgba(46,46,46,1)
+
+}
+
+.product-description {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 5px;
+}
+.rating-wrapper {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-top:5px;
+}
+
+.star {
+  color: #f4b400; /* Sarı yıldız */
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+
+.rating {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.price-add-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff5e7e;
+  margin-top: 10px;
+}
+
+.add-to-cart {
+  background-color: #ff5e7e;
+  color: white;
+  border: none;
+  border-radius:10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  
+}
+.add-to-cart:hover {
+  background-color: #e54e6e;
+}
+
+
+.text-section {
+  text-align: left;
+  max-width: 400px;
+  padding: 20px;
+  margin-left: 200px;
+}
+
+.subheading {
+  color: rgba(3,166,107,1);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.main-heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(46,46,46,1);
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 18px;
+  color: rgba(103,103,103,1);
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.explore-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #ff5e7e;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #e54e6e;
+}
+
+/*deniz BE-5 feauture-section started*/
+/* deniz BE-5 feauture-section responsive started */
+
+@media (max-width: 1024px) {
+  .feature-section{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 350px;
+  }
+  .text-section{
+    margin-top: 100px;
+    margin-bottom:300px;
+  }
+}
+
+/* deniz BE-5 feauture-section responsive finished*/
 
  /*--beyza[BE-9] Feature Section-2 Started--*/
  .Feater-container {

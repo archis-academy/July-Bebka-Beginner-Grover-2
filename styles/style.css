@@ -1219,13 +1219,11 @@ footer {
     text-align: center;
     position: relative;
     margin-top:100px;
-
   }
-  
+
   .service-header {
     margin-bottom: 30px;
   }
-  
 
   .small-heading {
     font-size: 24px;
@@ -1245,8 +1243,6 @@ footer {
     gap: 80px;
     
   }
-  
-  /* Kartlar */
   .first-card,
   .middle-card,
   .third-card {
@@ -1256,14 +1252,12 @@ footer {
     height: 340px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
-  
   }
   
   .middle-card-container {
     position: relative;
    
   }
-
   .middle-card {
     position: relative;
     z-index: 2;
@@ -1273,7 +1267,6 @@ footer {
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
-  
   .pink-background {
     position: absolute;
     top: 0px;
@@ -1286,23 +1279,18 @@ footer {
     transform: translateX(0%) rotate(-5deg);
     transform-origin: center;
   }
-  
-  
   .first-card img, .middle-card img, .third-card img {
     width: 100px;
     margin-bottom: 20px;
     margin-top: 20px;
   }
-  
 
-  /* text Styles */
   .text-shipping h1, .text-returns h1, .text-secure h1 {
     font-size: 20px;
     margin-bottom: 10px;
     color: #333;
    
   }
-  
   .text-shipping p, .text-returns p, .text-secure p {
     font-size: 16px;
     color: #555;
@@ -1311,10 +1299,11 @@ footer {
   }
   /*Deniz Angın service section finished*/
 
-  /*deniz service section responsive*/
+  /*Deniz service section responsive*/
   @media (max-width: 850px) {
     .services-section{
-      margin-top: 700px;
+      margin-top: 100px;
+  
     }
     .services-cards {
       flex-direction: column;
@@ -1325,26 +1314,26 @@ footer {
   }
   @media (max-width: 490px){
   .services-section{
-    margin-top: 400px;
+    margin-top: 100px;
+   
   }
 }
-  
+
 /*deniz service-section responsive finished*/
-/*deniz BE-5 feauture-section started*/
+/*deniz BE-5 feauture-section 1 started*/
 .feature-section {
   max-width: 1240px;
   margin: auto;
   font-family:'poppins';
   background-color:white;
-  margin-top: 90px;
-  margin-bottom: 100px;
+  margin-top: 120px;
+  margin-bottom: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   position: relative;
 }
-
 .orange-box {
   position: relative;
   display: flex;
@@ -1354,7 +1343,6 @@ footer {
   height: 600px;
   text-align: center;
 }
-
 .strawberry-card {
   background-color: white;
   padding: 10px;
@@ -1369,7 +1357,6 @@ footer {
   right: 0;
   transform: translate(0%, 0%);
   z-index: 3;
-
 }
 
 .strawberry-card img {
@@ -1383,7 +1370,7 @@ footer {
 .product-title {
   font-size: 18px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color:rgba(46,46,46,1)
 
 }
@@ -1446,39 +1433,34 @@ footer {
 .add-to-cart:hover {
   background-color: #e54e6e;
 }
-
-
 .text-section {
   text-align: left;
   max-width: 400px;
   padding: 20px;
   margin-left: 200px;
-}
 
+}
 .subheading {
   color: rgba(3,166,107,1);
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 10px;
-  line-height: 24px;
-  text-transform: uppercase;
+  line-height: 10px;
+  text-transform:uppercase;
 }
-
 .main-heading {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 600;
   color: rgba(46,46,46,1);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-weight: bold;
 }
-
 .description {
   font-size: 18px;
   color: rgba(103,103,103,1);
   margin-bottom: 30px;
   line-height: 30px;
 }
-
 .explore-btn {
   display: inline-block;
   padding: 15px 30px;
@@ -1490,27 +1472,28 @@ footer {
   border-radius: 12px;
   transition: background-color 0.3s ease;
 }
-
 .explore-btn:hover {
   background-color: #e54e6e;
 }
+/*deniz BE-5 feauture-section-1 finished*/
 
-/*deniz BE-5 feauture-section started*/
-/* deniz BE-5 feauture-section responsive started */
-
-@media (max-width: 1024px) {
+/* deniz BE-5 feauture-section-1 responsive started */
+@media (max-width: 1024px)
+ {
   .feature-section{
     flex-direction: column;
     align-items: center;
-    margin-top: 350px;
+    margin-top: 550px;
+    margin-bottom: 200px;
   }
   .text-section{
-    margin-top: 100px;
-    margin-bottom:300px;
+    margin-top: 200px;
+    margin-bottom:450px;
+    margin-left:20px;
+    font-size: smaller;
   }
 }
-
-/* deniz BE-5 feauture-section responsive finished*/
+/* deniz BE-5 feauture-section-1 responsive finished*/
 
  /*--beyza[BE-9] Feature Section-2 Started--*/
  .Feater-container {

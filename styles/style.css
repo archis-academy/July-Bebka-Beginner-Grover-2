@@ -1326,13 +1326,18 @@ footer {
   margin: auto;
   font-family:'poppins';
   background-color:white;
-  margin-top: 120px;
-  margin-bottom: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80vh;
   position: relative;
+}
+
+.woman-img img{
+  max-width:550px;
+ 
 }
 .orange-box {
   position: relative;
@@ -1343,6 +1348,7 @@ footer {
   height: 600px;
   text-align: center;
 }
+ 
 .strawberry-card {
   background-color: white;
   padding: 10px;
@@ -1483,12 +1489,12 @@ footer {
   .feature-section{
     flex-direction: column;
     align-items: center;
-    margin-top: 550px;
+    margin-top: 700px;
     margin-bottom: 200px;
   }
   .text-section{
-    margin-top: 200px;
-    margin-bottom:450px;
+    margin-top: 100px;
+    margin-bottom:500px;
     margin-left:20px;
     font-size: smaller;
   }

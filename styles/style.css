@@ -92,7 +92,6 @@ body {
   height: 24px;
 }
 .cart-count {
-    
     position: absolute;
     top: -10px;
     right: -5px;
@@ -102,9 +101,8 @@ body {
     border-radius: 50%;
     padding: 2px 5px;
     font-size: 12px;
-    
-
 }
+
  /*Cta Section Start */
  .container-cta{
   display: grid;
@@ -131,87 +129,107 @@ body {
   opacity: 0px;
   overflow-wrap: break-word;
 }
-.app-store-button {
-  width: 208px;
-  height: 80px;
-  top: 479px;
-  left: 722.19px;
-  border: none;
-  background-color: #FEF5F5;
-}
-
-.play-store-button {
-  width: 200px;
-  height: 80px;
-  top: 479px;
-  margin-left: 32px;
-  margin-top: 0;
-  gap: 0px;
-  border: none;
-  background-color: #FEF5F5;
-}
-#title {
-font-family:Poppins;
-font-size: 40px;
-font-weight: 700;
-margin-top: 10px;
-margin-bottom: 20px;
-text-align: left;
-color: #2e2e2e;
-
-}
-/* Media Queries for Responsive Design */
-@media (max-width: 800px) {
-.container-cta {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: auto;
-}
-
-.cta-mobile {
-  margin-left: 0;
-  margin-top: 20px;
-  opacity: 1; /* İstediğin görünürlük seviyesine göre değiştir */
-}
-
-.cta-content {
-  margin-left: 0;
-  margin-top: 20px;
-  max-width: 100%;
-  text-align: center;
-  opacity: 1; /* İstediğin görünürlük seviyesine göre değiştir */
-}
-
-
-/* Butonlar için flex yapısı */
 .cta-content-buttons {
-display: flex;
-flex-direction: column; /* Butonları üst üste sıralar */
-justify-content: center; /* Butonları yatayda ortalar */
-align-items: center;
-gap: 24px; /* Butonlar arasındaki boşluğu artır */
-margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px; 
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
 }
 
+/* Default button styles */
 .app-store-button,
 .play-store-button {
-width: 100%;
-max-width: 200px; /* Ekran genişliği daha küçükse butonların genişliği 200px olur */
-height: 60px;
-text-align: center;
+  width: 200px; /* Default width */
+  height: 80px; /* Default height */
+  border: none;
+  background-color: #FEF5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .play-store-button {
-margin-left: 0; /* Üst üste hizalama için sol margin sıfırlanır */
+  margin-left: 0; 
+}
+#title {
+  font-family:Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #2e2e2e;
+  }
+
+@media (max-width: 1200px) and (min-width: 1055px){
+  .cta-content-buttons {
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px;
+  }
+  .app-store-button,
+  .play-store-button {
+    width: 100%;
+    max-width: 200px; 
+    height: 60px; 
+    margin-top: 10px;
+  }
 }
 
-#title {
-  font-size: 32px;
-  text-align: center;
+/* Media Query for Screen Width Up to 1000px */
+@media (max-width: 1055px) {
+  .container-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .cta-mobile {
+    margin: 20px 0;
+    opacity: 1;
+  }
+
+  .cta-content {
+    margin: 20px 0;
+    max-width: 100%;
+    text-align: center;
+    opacity: 1;
+  }
+
+  /* Flexbox for button layout */
+  .cta-content-buttons {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .app-store-button,
+  .play-store-button {
+    width: auto; 
+    max-width: 200px;
+    height: 50px;
+    text-align: center;
+  }
+
+  .play-store-button {
+    margin-left: 0; /* No need for margin-left as buttons are side by side */
+  }
+
+  #title {
+    font-size: 32px;
+    text-align: center;
+  }
 }
-}
-/*cta section end*/
+/*Cta Section End*/
 
 
 /* Başlangıç: Responsive Tasarım */

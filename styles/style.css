@@ -325,7 +325,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin-right: 34.3px;
   display: flex;
-  flex-direction: row
+  flex-direction: row;
   box-sizing: border-box;
 }
 .header-content .order-now {

@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Movies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="featured-space" id="featured">
+    <div class="featured-text">
+        <div class="left-space">
+            <div class="text-watched">
+                <div class="title-main align-left">
+                    <h4 class="primary-title"> The Most Watched Movies</h4>
+                </div>
+                <p class="main-paragraph">
+                    Watch and download full film, seasons and episodes movies &amp; TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.
+                </p>
+            </div>
+        </div>
+
+        <div class="movie-card-container">
+            <div class="first-movie">
+                <div class="card movie">
+                    <a class="btn-wrap waves-effect" href="detail-movie.html">
+                        <span class="figure">
+                            <img src="https://res.cloudinary.com/imajin/image/upload/v1592043744/movie/movie2_cxxamr.jpg" alt="For All Mankind">
+                            <span class="figcaption">new</span>
+                            <span class="text"> For All Mankind</span> 
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="second-movie">
+                <div class="card movie">
+                    <span class="figure">
+                        <i class="fa-solid fa-play"></i> 
+                        <img src="https://res.cloudinary.com/imajin/image/upload/v1592043744/movie/movie3_a5wvov.png" 
+                             alt="Prehistoric Planet"> 
+                        <span class="figcaption">new</span>
+                        <span class="text">Prehistoric Planet</span>
+                    </span>
+                    <button class="play-trailer-btn" id="play-trailer">Play Trailer</button>
+                </div>
+            </div>
+
+            <div class="third-movie">
+                <div class="card movie">
+                    <a class="btn-wrap waves-effect" href="detail-movie.html">
+                        <span class="figure">
+                            <img src="https://res.cloudinary.com/imajin/image/upload/v1592043731/movie/movie4_gsfgzx.jpg" 
+                                  alt="Lovely Little Farm"> 
+                            <span class="figcaption">new</span>
+                            <span class="text">Lovely Little Farm</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="trailer-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe id="trailer-video" width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

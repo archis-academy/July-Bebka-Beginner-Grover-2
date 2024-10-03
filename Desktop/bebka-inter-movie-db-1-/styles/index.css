@@ -1578,7 +1578,7 @@ li {
 
 .movie-card-container {
  display: flex;
- gap: 20px;
+ gap: 25px;
  width: auto;
  justify-content: center;
 

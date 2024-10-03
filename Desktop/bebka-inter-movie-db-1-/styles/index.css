@@ -1747,6 +1747,9 @@ a.btn-wrap {
   pointer-events: none; 
 }
 
+.card.movie .sub-text:hover {
+  background-color: #333;  
+}
 
 
 /*----deniz most watched movies finised---*/
